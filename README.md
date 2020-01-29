@@ -37,5 +37,11 @@ Pro správnou funkci s UTF-8 charsetem musí být kód API **Lyricsgenius** [ná
 
 [Návod na nastavení s AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 
----
+___
+
+**TODO:**
+
+- [ ] Vypsat spravne jmeno autora, jedna-li se o feat
+- [ ] Zvetseni databaze textu
+- [ ] ...
 
