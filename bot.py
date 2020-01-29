@@ -4,9 +4,13 @@
 
 #replace REDACTED with your own API keys
 
+#import API stuff
+
 import lyricsgenius
 import random
 import tweepy
+
+#get API keys
 
 keys = {
     'CONSUMER_API_KEY': 'REDACTED',
@@ -15,7 +19,11 @@ keys = {
     'ACCESS_TOKEN_SECRET': 'REDACTED'
 }
 
+#make song array
+
 all_songs = ["Off Season", "Swag Martin Fenin", "MVP", "Šárka Peková", "Neni to moje vina", "Kariéra neni", "Tom Brady Freestyle", "Party u mě doma", "Primitivo", "Dej mi cash", "Zkurveně sám", "Nejkrásnější portrét", "B.M.W.", "Sem sober", "Champions League", "Free Nikolai Ivanov", "Airport směr Milano", "Kellner", "Bollywood", "Napalm", "Bollywood (Dopelphin Remix)", "Ballar jako Fotr", "Cejtim se jak Pacanda", "Sick Day"]
+
+#get lyrics for song from Genius
 
 def get_raw_lyrics():
     genius_client_access_token = "REDACTED"
@@ -25,6 +33,8 @@ def get_raw_lyrics():
     song = random_song_title.upper()
     songlower = random_song_title
     return lyrics, songlower, song
+
+#parse lyrics for Tweet output
 
 def get_tweet_from(lyrics, songlower):
     lines = lyrics.split('\n')
@@ -36,6 +46,8 @@ def get_tweet_from(lyrics, songlower):
     tweet = lines[random_num] + "\n" + lines[random_num+1] + "\n" + "\n" + "CA$HANOVA BULHAR" + " " + "-" + " " + songlower
     tweet = tweet.replace("\\", "")
     return tweet
+
+#handler for AWS Lambda and finished tweet sender
 
 def handler(event, context):
     auth = tweepy.OAuthHandler(
@@ -53,3 +65,5 @@ def handler(event, context):
     bio = api.update_profile(description=song)
 
     return tweet
+
+#all done!
