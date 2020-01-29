@@ -8,7 +8,6 @@
 
 Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen.
 
-[Podrobný návod na nastavení](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 ---
 
 **Filelist:**
@@ -28,6 +27,8 @@ Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizp�
 **Poznámky:**
 
 Pro správnou funkci s UTF-8 charsetem musí být kód API **Lyricsgenius** [následovně](https://github.com/johnwmillr/LyricsGenius/pull/126/files) opraveno.
+
+[Návod na nastavení s AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 
 ---
 
