@@ -4,12 +4,15 @@
 >
 > *- CA$HANOVA BULHAR*
 ---
-Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen. 
+
+Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen.
+
 [Tutorial na správné nastavení](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 ---
 
 Filelist:
 *bot.py* - hlavní kód, pro správnou funkci je nutnost vlastnit **Genius API klíč** a **Twitter Developer účet**.
+
 *lookup.py* - sekundární ústřižek kódu, po adekvátní změně dokáže do konzole vypsat index písní zpěváka. Pro správnou funkci je nutnost vlastnit **Genius API** klíč.
 
 ---
@@ -17,6 +20,7 @@ Filelist:
 Napsáno v Python 3.8.1
 
 Použité balíky:
+
 * Tweepy (API na Tweetování skrz Python)
 * Lyricsgenius (API na vyhledávání textů, zpěváků...)
 
