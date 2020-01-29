@@ -13,6 +13,7 @@ Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizp�
 **Filelist:**
 
 *bot.py* - hlavní kód, pro správnou funkci je nutnost vlastnit **Genius API klíč** a **Twitter Developer účet**.
+
 *lookup.py* - sekundární ústřižek kódu, po adekvátní změně dokáže do konzole vypsat index písní zpěváka. Pro správnou funkci je nutnost vlastnit **Genius API** klíč.
 
 ---
