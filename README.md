@@ -7,7 +7,8 @@
 
 Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen.
 
-[Tutorial na správné nastavení](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
+
+[**Tutorial na správné nastavení**](https://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html#python-package-venv)
 ---
 
 Filelist:
