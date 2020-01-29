@@ -45,3 +45,8 @@ ___
 - [ ] Zvetseni databaze textu
 - [ ] ...
 
+___
+
+**Credits:**
+
+[BLADEE BOT](https://twitter.com/BLADEE_BOT)
