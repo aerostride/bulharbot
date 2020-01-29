@@ -3,12 +3,14 @@
 > "Sedim v autě, jedu na AGIPku, natankovat benzín, koupit si bagetu."
 >
 > *- CA$HANOVA BULHAR*
----
+
+___
+
 **Obecné:**
 
 Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen.
 
----
+___
 
 **Filelist:**
 
@@ -16,14 +18,16 @@ Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizp�
 
 *lookup.py* - sekundární ústřižek kódu, po adekvátní změně dokáže do konzole vypsat index písní zpěváka. Pro správnou funkci je nutnost vlastnit **Genius API** klíč.
 
----
+___
+
 **Použité balíky:**
 
 * Tweepy (API na Tweetování skrz Python)
 * Lyricsgenius (API na vyhledávání textů, zpěváků...)
 
 **Napsáno v Python 3.8.1**
----
+
+___
 
 **Poznámky:**
 
