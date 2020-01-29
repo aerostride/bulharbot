@@ -10,7 +10,7 @@ ___
 
 **Obecné:**
 
-Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být správně zabalen.
+Jednoduchý bot na tweetování náhodných textů z Genius. Kód se dá přizpůsobit podle libosti. Hosting na AWS Lambda, pro správnou funkci musí být finální kód spolu s API doplňky správně zabalen.
 
 ___
 
